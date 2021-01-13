@@ -1,0 +1,151 @@
+{
+    "vegetables":{
+        "artichoke":{
+            "friends":[
+                "broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard"
+            ],
+            "foes":[]
+        },
+        "asparagus":{
+            "friends":[" basil","marigold","nasturtium","parsley","tomato"],
+            "foes":["garlic","leek","onion","shallot"]
+        },
+        "beans (bush)":{
+            "friends":["beets","celery","corn","cucumber","nasturtium","peas","radish","strawberry","summer savory"],
+            "foes":["garl","leek","onion","shallot","fennel"]
+        },
+        "beans (pole)":{
+            "friends":["carrot","catnip","celery","chamomile","corn","cucumber","garlic","marigold","nasturtium","oregano",
+                       "peas","potato","radish","rosemary","spinach","squash","summer savory"],
+            "foes":["allium family","beets","brassica family","fennel"]
+        },
+        "beets":{
+            "friends":["garlic","leek","onion","shallot","beans (bush)","lettuce","brassica family","tomato"],
+            "foes":["beans (pole)"]
+        },
+        "broccoli":{
+            "friends":["artichoke","beets","candy tuft","catnip","celery","chamomile","cucumber","dill","garlic",
+                       "hyssop","mint","nasturtium","onion","oregano","pennyroyal","peppermint","potato","radish",
+                       "rosemary","sage","southernwood","thyme","wormwood"],
+            "foes":["beans (pole)","peas (snap)","strawberry","tomato"]
+        },
+        "brussels sprouts":{
+            "friends":["artichoke","beans (bush)","beets","celery","chamomile","garlic","nasturtium","onion","peas",
+                       "pennyroyal","potato","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            "foes":["kohlrabi","beans (pole)","strawberry","tomato"]
+        },
+        "cabbage":{
+            "friends":["artichoke","beets","celery","chamomile","cucumber","dill","garlic","nasturtium","onion","peas",
+                       "pennyroyal","peppermint (potted)","potato","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            "foes":["beans (pole)","tomato"]
+        },
+        "carrots":{
+            "friends":["beans","candy tuft","chives","leeks","lettuce","onion","parsley","peas","pepper","radish",
+                       "rosemary","sage","tomato","wormwood"],
+            "foes":["celery","dill"]
+        },
+        "cauliflower":{
+            "friends":["artichoke","beans (bush)","beets","cabbage","celery","chamomile","garlic","lettuce","nasturtium",
+                       "onion","peas","potato","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            "foes":["beans (pole)","strawberry","tomato"]
+        },
+        "celery":{
+            "friends":["beans (pole)","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard","chives","cilantro","garlic","leeks","nasturtium","spinach","tomato"],
+            "foes":["carrot","parsnip"]
+        },
+        "collards":{
+            "friends":["artichoke","beets","celery","chamomile","rosemary","southernwood","thyme","tomato","wormwood"],
+            "foes":["basil","beans (pole)"]
+        },
+        "corn":{
+            "friends":["alfalfa","beans","cucumber","geranium (white)","jerusalem artichoke","marigold (odorless)",
+                       "melon","parsley","peas","potato","pumpkin","squash","sweet potato"],
+            "foes":["tomato"]
+        },
+        "cucumber":{
+            "friends":["beans (bush)","beans (pole)","broccoli","cabbage","catnip","chives","corn","dill (use sparingly)","eggplant",
+                       "kale","kohlrabi","lettuce","marigold","nasturtium","onion","oregano","peas","radish","sunflower","tomato"],
+            "foes":["basil","marjoram","potato","rosemary","sage","summer savory" ]
+        },
+        "eggplant":{
+            "friends":["beans","cilantro","cucumber","marigold","pepper","potato"],
+            "foes":[]
+        },
+        "garlic":{
+            "friends":["beets","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard ",
+                       "celery","chamomile","lettuce","radish","roses","tomato"],
+            "foes":["beans","peas"]
+        },
+        "kale":{
+            "friends":["artichoke","beets","beans (bush)","celery","chamomile","cucumber","dill","garlic","lettuce","mint",
+                       "nasturtium","onion","peas","potato","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            "foes":["basil","beans (pole)","strawberry","tomato"]
+        },
+        "kohlrabi":{
+            "friends":["artichoke","beets","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","celery","chamomile","cucumber","garlic","nasturtium",
+                       "onion","aromatic plants","late cabbage","late potato","radish","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            "foes":["basil","beans (pole)","pepper","strawberry","tomato"]
+        },
+        "leek":{
+            "friends":["carrot","celeriac","celery","onion"],
+            "foes":["beans","peas"]
+        },
+        "lettuce":{
+            "friends":["beets","carrot","cauliflower","cucumber","dill (use sparingly)","kale","radish","strawberry"],
+            "foes":["broccoli","allium family","broccoli","brussel sprouts","cabbage","collards","kohlrabi","mustard"]
+        },
+        "melon":{
+            "friends":["corn","radish","squash","sunflower","tomato"],
+            "foes":["potato"]
+        },
+        "mustard":{
+            "friends":["artichoke","beets","celery","chamomile","garlic","kohlrabi","nasturtium","radish","rosemary",
+                       "sage","southernwood","thyme","wormwood"],
+            "foes":["basil","beans (pole)","tomato"]
+        },
+        "onion":{
+            "friends":["beets","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi", "mustard",
+                       "carrot","chamomile","cucumber","dill","leeks","pepper","potato","roses","spinach","squash","strawberry","summer savory","tomatoes"],
+            "foes":["asparagus","beans","peas","sage"]
+        },
+        "peas":{
+            "friends":["aromatic herbs","beans","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale",
+                       "kohlrabi","carrot","cilantro","corn","cucumber","mint","mustard","radish","spinach","tomato"],
+            "foes":["allium family","gladiolas"]
+        },
+        "peppers":{
+            "friends":["basil","carrot","catnip","eggplant","nasturtium","okra","onion","parsley","tomato"],
+            "foes":["fennel","kohlrabi"]
+        },
+        "potato":{
+            "friends":["beans","brassica family","catnip","cilantro","corn","eggplant","horseradish","marigold","nasturtium","onion","pumpkin"],
+            "foes":["cucumber","pumpkin","spinach","squash","sunflower","tomato"]
+        },
+        "radish":{
+            "friends":["beans","beets","broccoli","carrot","chervil","cucumber","garlic","kohlrabi","lettuce","melon","mustard","nasturtium","peas","squash","tomato"],
+            "foes":["hyssop"]
+        },
+        "spinach":{
+            "friends":["beans","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard ","celery","onion","peas","strawberry"],
+            "foes":["potato"]},
+        "squash":{
+            "friends":["beans","borage","catnip","celeriac","celery","corn","marigold","melon","mint","nasturtium","onion","radish"],
+            "foes":["potato","pumpkin"]
+        },
+        "strawberry":{
+            "friends":["beans (bush)","borage","lettuce","onion","sage","spinach","thyme"],
+            "foes":["brussel sprouts","broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard"]
+        },
+        "tomato":{
+            "friends":["asparagus","basil","bee balm","beets","borage","carrot","chives","cilantro","cucumber",
+                       "garlic","marigold","melon","mint","nasturtium","parsley","peas","pepper","onion","radish"],
+            "foes":["broccoli","brussel sprouts","cabbage","cauliflower","collards","kale","kohlrabi","mustard","corn","dill","fennel","potato"]
+        },
+        "turnip/rutabaga":{
+            "friends":["artichoke","beets","celery","garlic","peas","rosemary","sage","southernwood","spinach","thyme","wormwood"],
+            
+            "foes":["basil","beans (pole)","hedge mustard","tomato"]
+        }
+    }
+}
+
