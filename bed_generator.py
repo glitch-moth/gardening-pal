@@ -5,8 +5,8 @@ def generate_bed(veg, vegs):
     return (veg, [friend for friend in vegs[veg]['friends'] if friend in vegs and not friend in extended_foes])
 
 def generate_bed_depth_two(veg, vegs):
-    beds = {}
-    for veg_2 in vegs[veg]['friends']:
+    #beds = {}
+    #for veg_2 in vegs[veg]['friends']:
 
 if __name__=='__main__':
     with open("vegetables.json", 'r') as file:
